@@ -155,3 +155,21 @@ input[type="text"]:focus {
 .footer a:hover {
   text-decoration: underline;
 }
+
+.link3kh0, 
+.link3kh0:visited, 
+.link3kh0:hover, 
+.link3kh0:active {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+#colorHeart {
+  color: #d3192a;
+  text-shadow:
+  1px 1px 0 black,  /* Right bottom */
+ -1px -1px 0 black,  /* Left top */
+ -1px 1px 0 black,   /* Left bottom */
+  1px -1px 0 black;  /* Right top */
+}
