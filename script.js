@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   confirmButton.addEventListener("click", () => {
-    window.location.href = "https://donatepaypal.gavs.xyz";
+    window.location.href = "https://gavcreator.github.io/donatepaypal/";
   });
 
   window.addEventListener("click", (event) => {
