@@ -1,54 +1,25 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <title>Donation page</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <link rel="icon" sizes="512x512" href="img/logo.png" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <h1>Donations</h1>
-    <div class="icon-container">
-      <a href="#" id="paypal-link"><img class="icon" src="img/pp.svg" alt="paypal" /></a>
-      <a href="https://cash.app/$SimplyGav"><img class="icon" src="img/cash.png" alt="cash app" /></a>
-      <a href="#" id="btc-link"><img class="icon" src="img/btc.svg" alt="bitcoin" /></a>
-    </div>
-    <div id="paypal-modal" class="modal">
-      <div class="modal-content">
-        <span class="close">&times;</span>
-        <p>
-          I only accept payments via the "Friends and Family" option due to issues with those who wrongfully chargeback. 
-          Unjustified chargebacks are a common issue in the streaming community. 
-          If a payment is sent through the "Goods and Services" option, 
-          I will ask you to confirm your donation. 
-          If confirmation isn't provided, 
-          I will issue a refund and ban you from my platform. 
-          Attempted chargebacks will be disputed.        
-        </p>
-        <button id="confirm" disabled>
-          <img src="img/spinner.svg" alt="Loading..." class="spinner" />
-          Please wait
-        </button>
-      </div>
-    </div>
-    <div id="btc-modal" class="modal">
-      <div class="modal-content">
-        <span class="close" id="btc-close">&times;</span>
-        <p>Bitcoin Network</p>
-        <input type="text" disabled value="3EtfDQuNQKyyRh8Sn3ToTX5pc6F5b16eCc">
-        <div class="qr-code">
-          <img src="img/btcqr.png" />
+
+    <head>
+        <title>Gav's Donation Page - NEW</title>
+        <link rel="icon" sizes="512x512" href="https://placehold.co/512/black/white/png?text=Fav">
+        <link rel="stylesheet" href="https://cdn.statically.io/gh/GsLibrary/Library/main/Fonts.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+		<div class="container">
+            <div class="options">
+                <a href="https://streamelements.com/simplygav/tip"><img src="icons/Twitch.png"></a>
+                <a href="https://streamelements.com/gvnx/tip"><img src="icons/YouTube.png"></a>
+            </div>
         </div>
-        <p>Lightning Network</p>
-        <input type="text" disabled value="lnbc1pn264swdqdgdshx6pqg9c8qpp53lsn9g600apy9uf42kdv25vzuxetfwzy2tfc86m2azsaxjqkj63qsp5ekaydpdamzmf9l6wm60tna9gphm4jx8erwrna3p0ek8nx73rtszs9qrsgqcqpcxqy8ayqrzjqv06k0m23t593pngl0jt7n9wznp64fqngvctz7vts8nq4tukvtljqzujfgqqpncqqcqqqqqqqqqqqqqq9grzjqtsjy9p55gdceevp36fvdmrkxqvzfhy8ak2tgc5zgtjtra9xlaz97pa45sqqnvqqqcqqqqqqqqqqqqqq9g4kaczxu6s66h0fe2e3zy4trg7cvle95lu3hl28xwu0m4tz03lwx4m2pj84lk790kpcm3ry99kh7f3k3wcx4xnaesy7gnluq350plm9qq3d0qwn">
-        <div class="qr-code">
-          <img src="img/lightingqr.png" />
-        </div>
-      </div>
-    </div>
-    <div class="footer">
-      <p>Made with <span id="colorHeart">❤</span> for Gav by <a class="link3kh0" href="https://3kh0.net">3kh0</a></p>
-    </div>    
-    <script src="script.js"></script>
-  </body>
+
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.7.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+        <script src="https://cdn.statically.io/gh/GsLibrary/Library/main/NewScript.js"></script>
+        <script src="https://kit.fontawesome.com/5f8433758a.js"></script>
+        <script src="script.js"></script>
+    </body>
+
 </html>
